@@ -225,7 +225,7 @@ ol > li:last-child {
     }
 
     figcaption {
-        padding-top: 10px 0 0;
+        padding: 10px 0 0;
         font-size: 16px;
         line-height: 1.315;
     }
@@ -292,9 +292,27 @@ ol > li:last-child {
         padding: 30px 50px;
     }
 
+    h1 {
+        font-family: 'Verdana', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 1.214;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    h2 {
+        font-family: 'Verdana', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.208333;        
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+
     p {
-        font-size: 14px;
-        line-height: 1.5;
         margin-bottom: 16px;
     }
 
@@ -305,13 +323,14 @@ ol > li:last-child {
 
     img {
         border-radius: 6px 8px 8px 6px;
-        padding: 15px 10px 10px;
+        padding: 15px 10px 0px 10px;
     }
 
     figcaption {
-        margin-bottom: 15px;
+        margin-bottom: 0px;
+        padding-bottom: 15px;
         font-size: 16px;
-        line-height: 1.325;
+        line-height: 1.315;
     }
 
     .nav {
@@ -338,4 +357,19 @@ ol > li:last-child {
         font-size: 14px;
         line-height: 1.5;
     }
+
+    ol > li {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    footer {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    
 }
