@@ -21,16 +21,16 @@
 */
 
 
-nav .nav { /* x-x-x */
+nav .nav { /* x-1-2 */
     font-size: 15px;
     background: #cacaca;
 }
 
-.nav li > a { /* x-x-x */
+.nav li > a { /* x-1-2 */
     font-size: 1.1em;
 }
 
-nav #link-main { /* x-x-x */
+nav #link-main { /* 1-x-2 (найвищий пріоритет)*/
     font-size: 120%;
 }
 
