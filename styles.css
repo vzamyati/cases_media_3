@@ -56,16 +56,16 @@ nav {
     background: #FFFFFF;
 }
 
-a:link {
+:link {
     color: #006EBE;
     text-decoration: none;
 }
 
-a:link:hover {
+:link:hover {
     color: #5EAAE0;
 }
 
-a:link:visited {
+:link:visited {
     color: #0B257D;
 }
 
